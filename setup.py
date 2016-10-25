@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='phook',
-      version='0.1',
+      version='0.2',
       description='Puppet code basic checks',
       author='Alexey Kaytaz',
       author_email='alexey@kaytaz.ru',

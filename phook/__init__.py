@@ -4,7 +4,7 @@ import os
 from mercurial import util
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+#logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def linter(ui, repo, **kwargs):
     linter_cmd = "puppet-lint --with-context --with-filename --fail-on-warnings --no-80chars-check --no-autoloader_layout-check --no-only_variable_string-check "
